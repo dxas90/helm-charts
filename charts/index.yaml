@@ -1,0 +1,140 @@
+apiVersion: v1
+entries:
+  chronograf:
+  - created: 2019-08-09T14:11:08.53321202-04:00
+    description: Chart for Chronograf
+    digest: 6368162fe4ecb514697d631e29baa60125d974aecebd0d838266c22999c1e013
+    engine: gotpl
+    home: https://www.influxdata.com/time-series-platform/chronograf/
+    keywords:
+    - chronograf
+    - visualizaion
+    - timeseries
+    maintainers:
+    - {}
+    - {}
+    name: chronograf
+    urls:
+    - https://dxas90.github.io/helm-charts/chronograf-1.7.11.tgz
+    version: 1.7.11
+  efk:
+  - appVersion: 6.4.2
+    created: 2019-08-09T14:11:08.535986737-04:00
+    description: EFK stack
+    digest: 54358bce664c3ec11a26d55917580f2959115adf0e968d37a4e882c87c6cb94e
+    home: https://akomljen.com/get-kubernetes-logs-with-efk-stack-in-5-minutes/
+    keywords:
+    - elasticsearch
+    - kibana
+    - fluent-bit
+    - filebeat
+    - metricbeat
+    - events
+    - logs
+    maintainers:
+    - email: alen.komljen@live.com
+      name: komljen
+    name: efk
+    urls:
+    - https://dxas90.github.io/helm-charts/efk-0.4.1.tgz
+    version: 0.4.1
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 6.4.2
+    created: 2019-08-09T14:11:08.536250781-04:00
+    description: A Helm chart for Elasticsearch cluster
+    digest: 61fdbb134c55ae7215cd6230d1a53914bc43e05e4955ea9674b59a919a629f88
+    maintainers:
+    - email: alen.komljen@live.com
+      name: komljen
+      url: https://akomljen.com
+    name: elasticsearch
+    sources:
+    - https://github.com/upmc-enterprises/elasticsearch-operator
+    urls:
+    - https://dxas90.github.io/helm-charts/elasticsearch-0.1.6.tgz
+    version: 0.1.6
+  influxdb:
+  - created: 2019-08-09T14:11:08.536712166-04:00
+    description: Scalable datastore for metrics, events, and real-time analytics.
+    digest: df6d7be351b3efa4e56d2a2fadc6e019d19d6d5405995e0af6027b216b194b3b
+    engine: gotpl
+    home: https://www.influxdata.com/time-series-platform/influxdb/
+    keywords:
+    - influxdb
+    - database
+    - timeseries
+    maintainers:
+    - {}
+    name: influxdb
+    sources:
+    - https://github.com/influxdata/influxdb
+    urls:
+    - https://dxas90.github.io/helm-charts/influxdb-1.7.6.tgz
+    version: 1.7.6
+  kapacitor:
+  - created: 2019-08-09T14:11:08.537201126-04:00
+    description: InfluxDB's co-processing processing engine. It can process both stream
+      and batch data from InfluxDB.
+    digest: e0c1ec7213533d8e66ded3300fe64aae4a1fea50454b02a7ce131d38abde700c
+    engine: gotpl
+    home: https://www.influxdata.com/time-series-platform/kapacitor/
+    keywords:
+    - kapacitor
+    - stream
+    - etl
+    - timeseries
+    maintainers:
+    - {}
+    name: kapacitor
+    sources:
+    - https://github.com/influxdata/kapacitor
+    urls:
+    - https://dxas90.github.io/helm-charts/kapacitor-1.5.2.tgz
+    version: 1.5.2
+  localstack:
+  - apiVersion: v1
+    created: 2019-08-09T14:11:08.537564345-04:00
+    description: A Helm chart for localstack
+    digest: ebad67831e388fd6d21d3978cdbf081c8abb41bf35db87f4be9e0e57beb85cdd
+    name: localstack
+    urls:
+    - https://dxas90.github.io/helm-charts/localstack-0.4.0.tgz
+    version: 0.4.0
+  telegraf-ds:
+  - created: 2019-08-09T14:11:08.538324624-04:00
+    description: Telegraf is an agent written in Go for collecting, processing, aggregating,
+      and writing metrics.
+    digest: f59d790aa06c2c334216859f14373830c65c505c5ad6cc0b813bad903a3d48b0
+    engine: gotpl
+    home: https://www.influxdata.com/time-series-platform/telegraf/
+    keywords:
+    - telegraf
+    - collector
+    - timeseries
+    - influxdata
+    maintainers:
+    - {}
+    name: telegraf-ds
+    urls:
+    - https://dxas90.github.io/helm-charts/telegraf-ds-1.10.3.tgz
+    version: 1.10.3
+  telegraf-s:
+  - created: 2019-08-09T14:11:08.539281992-04:00
+    description: Telegraf is an agent written in Go for collecting, processing, aggregating,
+      and writing metrics.
+    digest: bcb68a20e1359ce38b5560bae25bcc32cbd8102d4ee603e826d3c1432baa5a9e
+    engine: gotpl
+    home: https://www.influxdata.com/time-series-platform/telegraf/
+    keywords:
+    - telegraf
+    - collector
+    - timeseries
+    - influxdata
+    maintainers:
+    - {}
+    name: telegraf-s
+    urls:
+    - https://dxas90.github.io/helm-charts/telegraf-s-1.10.3.tgz
+    version: 1.10.3
+generated: 2019-08-09T14:11:08.532687076-04:00
